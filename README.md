@@ -8,7 +8,7 @@ Transforms Karma UI5 Gherkin test output to Cucumber format which can be postpro
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    reporters: ['cucumber']
+    reporters: ['cucumber-opa5']
   });
 };
 ```
@@ -25,9 +25,9 @@ File location to write to. Defaults to `stdout` if not present.
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    reporters: ['cucumber'],
+    reporters: ['cucumber-opa5'],
     cucumberReporter: {
-      out: './cucumber.json'
+      out: './test/results/cucumber.json'
     }
   });
 };
