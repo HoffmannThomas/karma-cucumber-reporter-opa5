@@ -15,8 +15,5 @@
     "url": "https://github.com/HoffmannThomas/karma-cucumber-reporter-opa5.git"
   },
   "author": "Thomas Hoffmann <thomashoffmann.exe@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.14.1"
-  }
+  "license": "MIT"
 }
