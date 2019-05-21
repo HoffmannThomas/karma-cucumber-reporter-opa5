@@ -1,19 +1,20 @@
 {
-  "name": "karma-cucumber-reporter",
-  "version": "1.0.3",
+  "name": "karma-cucumber-reporter-opa5",
+  "version": "1.0.0",
   "main": "lib/index.js",
-  "description": "Reporter that transforms test results from Karma to Cucumber format",
+  "description": "Reporter that transforms test OPA5 gherkin results from Karma to Cucumber format",
   "keywords": [
     "karma",
     "testing",
-    "cucumber"
+    "cucumber",
+	"OPA5"
   ],
-  "homepage": "https://github.com/akullpp/karma-cucumber-reporter",
+  "homepage": "https://github.com/HoffmannThomas/karma-cucumber-reporter-opa5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akullpp/karma-cucumber-reporter.git"
+    "url": "https://github.com/HoffmannThomas/karma-cucumber-reporter-opa5.git"
   },
-  "author": "Andreas Kull <akullpp@gmail.com>",
+  "author": "Thomas Hoffmann <thomashoffmann.exe@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.14.1"
